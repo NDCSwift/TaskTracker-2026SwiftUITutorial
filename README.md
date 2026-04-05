@@ -1,39 +1,57 @@
+# 📋 Task Tracker — SwiftUI Tutorial (2026)
 
-# 🚀 Getting Started
+A beginner-friendly SwiftUI task tracker app covering the core building blocks of iOS development — views, models, state management, and SwiftData persistence.
 
-## 1. Clone the Repo
+---
+
+## 🤔 What this is
+
+This project is a structured SwiftUI tutorial for beginners, built around a practical task tracking app. It introduces SwiftUI views, `@State` and `@Observable`, a simple `Task` model with SwiftData persistence, and a clean Models/Views project structure. A `SwiftBasics.swift` file walks through key Swift concepts referenced throughout the app.
+
+## ✅ Why you'd use it
+
+- **Perfect first project** — small enough to understand completely, real enough to be useful
+- **SwiftData persistence** — tasks survive app relaunches without any complex setup
+- **Clear folder structure** — `Models/` and `Views/` separation teaches good habits from day one
+- **`SwiftBasics.swift` reference** — a companion file explaining the Swift concepts used in the app
+
+## 📺 Watch on YouTube
+
+[![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20the%20Tutorial-red?style=for-the-badge&logo=youtube)](https://youtu.be/ayn9CdqbI_Y)
+
+> This project was built for the [NoahDoesCoding YouTube channel](https://www.youtube.com/@NoahDoesCoding97). Subscribe for weekly SwiftUI tutorials.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
 ```bash
-git clone https://github.com/NDCSwift/REPO-NAME.git
-cd REPO-NAME
+git clone https://github.com/NDCSwift/TaskTracker-2026SwiftUITutorial.git
+cd TaskTracker-2026SwiftUITutorial
 ```
-Or select “Clone Git Repository…” when Xcode launches.
 
-⸻
+### 2. Open in Xcode
+Double-click `TaskTracker.xcodeproj`.
 
-## 2. Open in Xcode
-	•	Double-click the .xcodeproj or .xcworkspace.
+### 3. Set Your Development Team
+**TARGET → Signing & Capabilities → Team**
 
-⸻
+### 4. Update the Bundle Identifier
+Change `com.example.MyApp` to a unique identifier.
 
-## 3. Set Your Development Team
+### 5. Run
+Select a simulator or connected device and hit **Run**.
 
-In Xcode, navigate to:
+---
 
-TARGET → Signing & Capabilities → Team
-	
-    •	Select your personal or organizational team.
+## 🛠️ Notes
 
-⸻
+- No third-party dependencies
+- SwiftData requires iOS 17+
+- If you see a code signing error, check that Team and Bundle ID are set
 
-## 4. Update the Bundle Identifier
-	•	Change com.example.MyApp to a unique identifier (e.g., com.yourname.MyApp).
+## 📦 Requirements
 
-⸻
-
-🛠️ Notes
-
-	•	If you see a code signing error, check that Team and Bundle ID are set.
-	•	If building for a device, ensure your provisioning profile supports the required capabilities (Push, iCloud, etc.).
-
-📺 YouTube
-[Click here to check out the guide on YouTube](https://youtu.be/ayn9CdqbI_Y)
+- Xcode 15+
+- iOS 17+
